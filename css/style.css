@@ -13,7 +13,7 @@ body{
     /* border: 1px solid red; */
 }
 .backimg{
-    background: url(/project1/images/designer_2.png);
+    background-image: url("../project1/images/designer_2.png");
     background-blend-mode: multiply;
     background-size: cover;
     background-position: left;
