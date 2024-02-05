@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap" rel="stylesheet">  
+  </head>
+<body >
+<header class="" id="top">
+    <nav class="navbar navbar-expand-md fixed-top py-0 text">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand fw-bolder fs-2 ps-5 "  style="color: rgba(1, 1, 78, 0.79);"  href="#">Landing</a>
+          <!-- Togle -->
+          <button class="navbar-toggler shadow-none border-2 justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            MENU<span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Sidebar -->
+          <div class="sidebar offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header border-bottom shadow-none">
+              <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">Landing</h5>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- Sidebar Body -->
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-3 justify-content-center ">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 fs-5 ">
+                <!-- <li class="nav-item mx-2 ">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li> -->
+                <li class="nav-item mx-2 " onmouseover="colorhover(this)" onmouseout="normalcolor(this)">
+                  <a class="nav-link active" style="color: #000;"  href="#top">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#contactus">Contact us</a>
+                </li>
+              
+              </ul>
+              <div class="flex-column flex-lg-row  gap-4 pt-2" id="navbtns">
+                <a class="btn btn-sm px-3 py-1 "  style=" color: #fff; background-color: rgba(1, 1, 78, 0.79);" >Purchase UI Kit</a>
+                <a class="btn btn-sm px-3 py-1"  style=" color: #fff; background-color: rgba(255, 201, 8, 0.797);" >Contact US</a>
+              </div>   
+          </div>
+                  
+    </nav> 
+</header>
+<main>
+  <!-- Home with backimg on Navbar -->
+  <section class="bgimg">
+      <div class="backimg">
+        <div class="img1">
+          <img src="images/Group.png" class="home" >
+        </div>
+      </div>
+      <div class="details ">
+        <h3 style="text-decoration: none; font-size: 40px; padding-left: 50px; ">Introduce Your Product </h3>
+        <h3 style="text-decoration: none; font-size: 40px; padding-left: 50px; ">Quickly & Effectively</h3>
+        <div class="txt">
+            <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet
+              <br>
+              illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+        </div>
+        <div class="flex-column flex-lg-row gap-4 pt-3 ps-5 " >
+          <a class="btn btn-sm px-5 py-1 fw-medium"  style="border-radius: 0px; color: #fff; background-color: rgba(1, 1, 78, 0.79);" >Purchase UI Kit</a>
+          <a class="btn btn-sm px-5 py-1 fw-medium"  style="border-radius: 0px; color: black; border-color:rgba(1, 1, 78, 0.79); ;" >Learn more</a>
+        </div> 
+      </div>
+    
+  </section>
+
+  <!-- Light,Fast,Powerful Left-1 -->
+  <section class="bgimg1">
+      <div class="details1">
+        <div class="text1">
+          <p style="font-size: 35px;font-weight: 500;">Light, Fast & Powerful</p>
+            <div class="text-muted ">
+              <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet
+               <br> illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+            </div>
+            <div class="iconwithtxt">
+              <div class="iconimg">
+                <img src="images/Icon.png" class="icon">
+                <p class="fw-bold " style="padding-top: 10px; font-size: 20px;">Title Goes Here</p>
+                <div class="text-muted " style="font-size: 15px;">
+                  <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedit.</a>
+                </div>
+              </div>
+            </div>
+            <div class="iconwithtxt">
+              <div class="iconimg">
+                <img src="images/Icon.png" class="icon">
+                <p class="fw-bold " style="padding-top: 10px; font-size: 20px;">Title Goes Here</p>
+                <div class="text-muted " style="font-size: 15px;">
+                  <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedit.</a>
+                </div>
+              </div>
+            </div>
+        </div>  
+      </div>
+      <div class="img2">
+        <img src="images/undraw_mobile_login_ikmv.png" class="img2img">
+      </div>
+  </section>
+  
+  <!-- Light,Fast,Powerful 2 -->
+  <section class="bgimg2">
+    <div class="img3">
+      <img src="images/undraw_happy_news_hxmt.png" class="img3img">  
+    </div>
+    <div class="details2">
+      <div class="text2">
+        <p style="font-size: 35px;font-weight: 500;">Light, Fast & Powerful</p>
+        <div class="text-muted" style="padding-right: 35px; font-size: 16px;">
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet
+           <br> illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Light,Fast,Powerful 3 -->
+  <section class="bgimg2">
+    <div class="img3">
+      <img src="images/undraw_social_influencer_sgsv.png" class="img3img">  
+    </div>
+    <div class="details2">
+      <div class="text2">
+        <p style="font-size: 35px;font-weight: 500;">Light, Fast & Powerful</p>
+        <div class="text-muted" style="padding-right: 35px; font-size: 16px;">
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet
+           <br> illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Light,Fast,Powerful 4 -->
+  <section class="bgimg2">
+    <div class="img3">
+      <img src="images/undraw_mention_6k5d.png" class="img3img">  
+    </div>
+    <div class="details2">
+      <div class="text2">
+        <p style="font-size: 35px;font-weight: 500;">Light, Fast & Powerful</p>
+        <div class="text-muted" style="padding-right: 35px; font-size: 16px;">
+          <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet
+           <br> illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+        </div>
+        <div class="flex-column flex-lg-row pt-5 ps-1 ">
+          <a class="btn btn-sm px-5 py-1 fw-medium"  style="border-radius: 0px; color: #fff; background-color: rgba(1, 1, 78, 0.79);" >Purchase Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price -->
+  <section class="bgimg3">
+    <div class="pricedetails">
+      <p style="font-size: 35px; font-weight: 500; color: rgba(1, 1, 78, 0.79);">A Price To Suit Everyone</p>
+      <div class="text-muted " style="text-align: center; padding-left: 350px; padding-right: 350px;">
+        <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, quam expedita voluptatum consequuntur eligendi soluta, quo voluptatem eveniet illum omnis magni esse explicabo aperiam impedit temporibus doloribus quaerat asperiores.</a>
+    
+          <p style="padding-top: 25px; font-size: 40px; color:rgba(1, 1, 78, 0.79); font-weight: 500;">$40</p>
+          <a style="padding-top: 0px; font-size: 18px; font-weight: 500; color:rgba(1, 1, 78, 0.79); ">UI Design Kit</a>
+      </div>
+      <br><br>
+      <div class="text-muted" style="padding-top: 15px; font-weight: 500;">
+        <a >See, One price. Simple. </a>
+      </div>
+      <div class="flex-column flex-lg-row pt-3 ps-1 ">
+        <a class="btn btn-sm px-5 py-1 fw-medium"  style="border-radius: 0px; color: #fff; background-color: rgba(1, 1, 78, 0.79);" >Purchase Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+      <div class="fp1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-muted t1" >
+                @2024 Company
+            </div>
+            <div class="col-md-4 t1 fw-bolder" style=" font-size: 20px;">
+                Landing
+            </div>
+            <div class="col-md-4 t1">
+              <div class="flex-column flex-lg-row ps-1 ">
+                <a class="btn btn-sm px-3 py-1 fw-medium"  style="border-radius: 0px; color: #fff; background-color: rgba(1, 1, 78, 0.79);" >Purchase Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fp2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 justify-content-start ">
+              <div class="menu">
+                <a href="#top">Home</a> 
+              </div>
+              <div class="menu">
+                <p>About</p> 
+              </div>
+              <div class="menu">
+                <p>Contact</p> 
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://web.tel.onl/" target="_blank"> <i class="fa fa-telegram" aria-hidden="true"></i></a>
+              </div>
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube" aria-hidden="true"></i></a>
+              </div>
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://twitter.com/home?lang=en" target="_blank"> <i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </div>
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </div>
+              <div class="iconf">
+                <a style="color: #B0B8BC" href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+</main>
+</body>
+<script src="JS/navtop.js"></script>
+</html>
